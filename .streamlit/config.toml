@@ -1,0 +1,3 @@
+[server]
+maxUploadSize = 200 # Adjust size limit (MB)
+maxMessageSize = 200 # Prevent WebSocket payload disconnects
