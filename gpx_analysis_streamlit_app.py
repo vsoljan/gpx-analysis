@@ -687,7 +687,7 @@ def main():
 
             colormap_choice = "jet"
             track_map, min_s, max_s = generate_speed_colored_map(
-                raw_df, colormap_name=colormap_choice
+                clean_df, colormap_name=colormap_choice
             )
 
             st_folium(track_map, width="100%", height=500, returned_objects=[])
