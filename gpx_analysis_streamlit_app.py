@@ -614,6 +614,7 @@ def main():
         page_title="GPX Sailing Speed Analyzer",
         page_icon="⛵",
         layout="wide",
+        initial_sidebar_state="expanded",
     )
 
     st.title("⛵ GPX Sailing Track Analyzer")
